@@ -1,4 +1,4 @@
-// 'generic'을 사용하는 이유?  ~> 타입 안정성
+// 'generic'을 사용하는 이유? ~> 타입 안정성
 class StudentInfo {
     public int grade;
     StudentInfo (int grade) {this.grade = grade;}
