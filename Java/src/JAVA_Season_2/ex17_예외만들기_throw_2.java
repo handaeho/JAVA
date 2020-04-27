@@ -63,8 +63,8 @@ class E {
 // checked 예외는 사용자에게 문제를 해결할 기회를 주는 것이면서 예외처리를 강제하는 것이다.
 // 하지만 checked 예외를 너무 자주 사용하면 API 사용자를 몹시 힘들게 할 수 있기 때문에 적정선을 찾는 것이 중요하다.
 
-//반면, 사용자가 API의 사용방법을 어겨서 발생하는 문제거나 예외 상황이 이미 발생한 시점에서
-// 그냥 프로그램을 종료하는 것이 덜 위험 할 때 unchecked를 사용한다.
+// 반면, 사용자가 API의 사용방법을 어겨서 발생하는 문제거나 예외 상황이 이미 발생한 시점에서
+// 그냥 프로그램을 종료하는 것이 덜 위험할 때 unchecked를 사용한다.
 
 // 기존의 ArithmeticException을 직접 만든 Exception으로 교체해보자.
 class DivideException extends RuntimeException {
