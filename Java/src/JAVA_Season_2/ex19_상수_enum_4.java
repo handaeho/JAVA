@@ -12,7 +12,7 @@ enum Fruit_2 {
         this.color = color;
     }
 }
-enum Compant_2 {
+enum Company_2 {
     GOOGLE, APPLE, ORACLE;
 }
 
