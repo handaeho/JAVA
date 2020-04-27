@@ -43,7 +43,7 @@ public class ex17_예외만들기_throw {
 
         /*
         <주요 Exception>
-            예외	                    사용해야 할 상황
+            예외	                      사용해야 할 상황
             IllegalArgumentException	매개변수가 의도하지 않은 상황을 유발시킬 때
             IllegalStateException	    메소드를 호출하기 위한 상태가 아닐 때
             NullPointerException	    매개 변수 값이 null 일 때
