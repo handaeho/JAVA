@@ -17,7 +17,7 @@ public class ex21_generic_3 {
     public static void main(String[] args) {
         // 제네릭은 참조 데이터 타입에 대해서만 사용할 수 있다. 기본 데이터 타입에서는 사용할 수 없다.
         // Person_2 <EmployeeInfo_2, int> p1 = new Person_2<EmployeeInfo_2, int>(new EmployeeInfo_2(1), 1);
-        // ~> 기본 데이터 타입은 int 타입을 사용할 수 없다. 따라서 에러
+        // ~> 기본 데이터 타입인 int 타입을 사용할 수 없다. 따라서 에러
 
         EmployeeInfo_2 e = new EmployeeInfo_2(1);
         Integer i = new Integer(10);
