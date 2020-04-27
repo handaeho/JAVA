@@ -1,12 +1,10 @@
 // 정렬
 // 컬렉션을 사용하는 이유 중의 하나는 정렬과 같은 데이터와 관련된 작업을 하기 위해서이다.
 
-import jdk.nashorn.api.scripting.ScriptObjectMirror;
-
-import java.util.*;
-
 // 정렬하는 법을 알아보자.
 // 패키지 java.util 내에는 'Collections'라는 클래스가 있다. 이 클래스를 사용하는 법을 알아보자.
+import java.util.*;
+
 class Computer implements Comparable {
     int serial;
     String owner;
