@@ -39,7 +39,7 @@ class Student {
     // 클래스 Object의 메소드 equals를 overiding
     public boolean equals (Object obj) {
         Student _obj = (Student) obj;
-        // ~> (Student)obj 는 메소드 equals로 전달된 obj의 데이터 타입이 Object이기 때문에
+        // ~> (Student) obj는 메소드 equals로 전달된 obj의 데이터 타입이 Object이기 때문에
         // 이를 Student 타입으로 타입 변환하는 코드
         return name == _obj.name;
     }
