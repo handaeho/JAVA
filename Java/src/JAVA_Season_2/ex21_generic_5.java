@@ -43,7 +43,8 @@ public class ex21_generic_5 {
         //Person_4<String> p2 = new Person_4<String>("부장");
         // ~> 에러
         // 'class Person_4 <T extends Info>'에 의해, 'Person'의 T는 Info 클래스나 그 자식 외에는 올 수 없다.
-
+        // (int rank와 String "부장"은 호환될 수 없으므로)
+        
         // 또한 'extends'는 '상속(extends)'뿐 아니라 '구현(implements)'의 관계에서도 사용할 수 있다.
         Person_inter p2 = new Person_inter(new EmployeeInfo_inter(1));
         // Person_inter<String> p3 = new Person_inter<String>("부장");
